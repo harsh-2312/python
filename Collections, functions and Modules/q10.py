@@ -11,6 +11,6 @@ for i in range(1,31):
 first=list1[:5]
 last=list1[-5:]
 
-print("first 5 elements:",first)
-print("last 5 elements:",last)
+print(first + last)
+
 

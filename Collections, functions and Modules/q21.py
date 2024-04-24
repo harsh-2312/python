@@ -7,3 +7,10 @@ str1=str(tuple1)
 str1="".join(tuple1)
 print(str1)
 print(type(str1))
+
+# n=""
+
+# for i in tuple1:
+#     n+=i
+
+# print(n)
