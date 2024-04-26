@@ -4,17 +4,17 @@
 # Expected Output: 
 # Counter ({'item1': 1150, 'item2': 300})  
 
+from collections import Counter
 
 dic1=[{'item':'item1','amount':400},
       {'item':'item2','amount':300},
-      {'item':'item1','amount':750}]  
+      {'item':'item1','amount':750}] 
 
-combine={}
+res=Counter()
 
 for i in dic1:
-    for key,value in i.items():
-        if key in combine:
-            combine[key]+=value
-        else:
-            combine[key]=value
-print(combine)
+    res[i['item']] += i['amount']
+
+print(res)
+
+

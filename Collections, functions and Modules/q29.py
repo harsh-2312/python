@@ -2,6 +2,6 @@
 
 list_tup=[(1,2,3),(4,5,6),(7,8,9)]
 
-re=list(zip(*list_tup))
+res=list(zip(*list_tup))
 
-print(re)
+print(res)

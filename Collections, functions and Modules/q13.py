@@ -3,8 +3,8 @@
 import random
 list1=[101,111,243,555,212,433,432,789]
 
-rn = random.randrange(0,len(list1))
-randomlist=list1[rn]
-print(randomlist)
+
+print(random.choice(list1))
+
 
 
