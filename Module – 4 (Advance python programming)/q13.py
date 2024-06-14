@@ -6,4 +6,3 @@
 # Syntax errors
 # Logical errors (Exceptions) 
 # run time eroors
-

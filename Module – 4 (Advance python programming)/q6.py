@@ -1,11 +1,13 @@
 #  Write a Python program to read a file line by line and store it into a list 
 fil_name="q4.txt"
+emplist = []
 
 def line(fil_name):
     with open(fil_name,"r") as file:
         lines=file.readlines()
-        lines = [i.strip() for i in lines]
-        return lines
+        for i in lines:
+            emplist.append(i)
+        return emplist
     
 print(line(fil_name))
     

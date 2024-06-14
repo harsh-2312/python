@@ -11,7 +11,7 @@
 
 try:
     # x = 10/0
-    inputy = int(input("Enter Number: "))
+    num = int(input("Enter Number: "))
 except ZeroDivisionError:
     print('Error: Division by zero')
 except ValueError:

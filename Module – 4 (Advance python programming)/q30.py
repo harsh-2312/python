@@ -1,7 +1,5 @@
 # What relationship is appropriate for Student and Person? 
 
-
-
 class student:
     def __init__(self,name ,id,age):
         self.name=name

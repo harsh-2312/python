@@ -3,10 +3,7 @@
 file_name='q4.txt'
 
 def number(file_name):
-    try:
-        with open(file_name,'r') as file:
-            count=len(file.readlines())
-        return count
-    except FileNotFoundError:
-        print("file not found")
+    with open(file_name,'r') as file:
+        count=len(file.readlines())
+    return count
 print(number(file_name))
